@@ -1,12 +1,6 @@
-# NMT_Papers (Update Continuously)
-
-## Some Papers about NMT (Neural Machine Translation)
-
-Some papers I **have read** about NMT.
-
-Machine translation is a very interesting research direction! Hope you can fine something you need(like)!
-
-If you are interested in machine translation and have any questions, **please feel free to contact me!**
+# Machine Translation Papers
+The original list is prepared by @yokusama <https://github.com/yokusama/NMT_Papers>
+(in the process of updating and re-organizing)
 
 * [Must Reads](#mustreads)
 * [Analysis](#analysis)
@@ -16,6 +10,7 @@ If you are interested in machine translation and have any questions, **please fe
 * [Leanring Framework and Objective Function](#objectivefunction)
 * [Robustness](#robustness)
 * [Data Augmentation](#data)
+* [Semi-supervised Learning with both Parallel and Monolingual Data](#ssl)
 * [Low Source](#lowsource)
 * [Domain adaptation](#domainadaptation)
 * [Multi-lingual NMT](#multilingual)
@@ -984,10 +979,7 @@ EMNLP 2018.
 
 <h2 id="objectivefunction">Leanring Framework and Objective Function:</h2>
 
-* **Dual Learning for Machine Translation.**
-*Yingce Xia, Di He, Tao Qin, Liwei Wang, Nenghai Yu, Tie-Yan Liu, Wei-Ying Ma.*
-NIPS 2016.
-[paper](https://papers.nips.cc/paper/6469-dual-learning-for-machine-translation.pdf)
+
 
 * **Sequence-Level Knowledge Distillation.**
 *Yoon Kim, Alexander M. Rush.*
@@ -1151,12 +1143,19 @@ ACL 2019.
 EMNLP 2019.
 [paper](https://www.aclweb.org/anthology/D19-1430/)
 
+<h2 id="ssl">Semi-supervised Learning with both Parallel and Monolingual Data</h2>
+
 #### Back-Translation:
 
 * **Improving Neural Machine Translation Models with Monolingual Data.**
 *Rico Sennrich, Barry Haddow, Alexandra Birch.*
 ACL 2016.
 [paper](http://www.aclweb.org/anthology/P16-1009)
+
+* **Dual Learning for Machine Translation.**
+*Yingce Xia, Di He, Tao Qin, Liwei Wang, Nenghai Yu, Tie-Yan Liu, Wei-Ying Ma.*
+NIPS 2016.
+[paper](https://papers.nips.cc/paper/6469-dual-learning-for-machine-translation.pdf)
 
 * **Back-Translation Sampling by Targeting Difficult Words in Neural Machine Translation.**
 *Marzieh Fadaee, Christof Monz.*
